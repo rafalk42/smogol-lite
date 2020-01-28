@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Smogol lite v0.5</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/boot.css">
+        <link rel="stylesheet" href="css/boot-thm.css">
+    </head>
+
+    <body class="main-container">
+        <div class="logo">
+            Smogol lite v0.5
+        </div>
+        <div id="online" class="connection">connecting...</div>
+        <div class="quality boxie">
+            <div class="header boxie-top">Air quality</div>
+            <div class="main" id="quality">&nbsp;</div>
+        </div>
+        <div class="current boxie">
+            <div class="header boxie-top">PM<sub>1</sub></div>
+            <div id="pm1">&nbsp;</div>
+        </div>
+        <div class="current boxie">
+            <div class="header boxie-top">PM<sub>2.5</sub></div>
+            <div id="pm25">&nbsp;</div>
+        </div>
+        <div class="current boxie">
+            <div class="header boxie-top">PM<sub>10</sub></div>
+            <div id="pm10">&nbsp;</div>
+        </div>
+
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/boot.js"></script>
+        <script type="module" src="js/main.js"></script>
+    </body>
+</html>

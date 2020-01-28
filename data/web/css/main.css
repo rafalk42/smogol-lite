@@ -1,0 +1,115 @@
+body
+{
+}
+
+.main-container
+{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  width: 60%;
+  margin: auto;
+  font-size: 60px;
+}
+
+@media only screen and (max-width: 768px)
+{
+	.main-container
+	{
+		width: 100%;
+		/* background-color: firebrick; */
+		font-size: 25px;
+	}
+}
+
+
+.logo
+{
+	width: 50%;
+	height: 1.5em;
+}
+
+.connection
+{
+	width: 50%;
+	height: 1.5em;
+	text-align: right;
+}
+
+.quality
+{
+	width: 100%;
+	height: 2.6em;
+}
+
+.quality .main
+{
+	height: 1.7em;
+}
+
+.quality .comment
+{
+	font-size: 0.5em;
+}
+
+.boxie
+{
+	background-color: #D3E3FC;
+	border-radius: 8px;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+}
+
+.boxie-top
+{
+	border-bottom: 2px solid #77A6F7;
+}
+
+.current
+{
+	width: 25%;
+	min-width: 50px;
+}
+
+.header
+{
+	font-size: 0.7em;
+	text-transform: uppercase;
+}
+
+.online
+{
+	color: #90B268;
+}
+
+.offline
+{
+	color: #C73F33;
+}
+
+.pm-header
+{
+	font-size: 3em;
+	text-align: center;
+}
+
+.pm-display
+{
+	font-size: 3em;
+	text-align: center;
+}
+
+.pm-normal
+{
+	color: #90B268;
+}
+.pm-warning
+{
+	color: rgb(255, 173, 50);
+}
+.pm-bad
+{
+	color: #C73F33;
+}
